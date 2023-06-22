@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  color: lightcoral;
+  font-style: italic;
+}
+
+h3 {
+  text-align: center;
+  color: lightcoral;
+  font-style: italic;
+}
+
+.skill-header {
+  text-align: left;
+}
+.skill-container {
+  border: solid lightcoral;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 1%;
+}
