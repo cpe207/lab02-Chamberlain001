@@ -1,13 +1,13 @@
 h1 {
   text-align: center;
-  color: lightcoral;
-  font-style: italic;
+}
+
+h2 {
+  text-align: center;
 }
 
 h3 {
   text-align: center;
-  color: lightcoral;
-  font-style: italic;
 }
 
 .skill-header {
@@ -20,4 +20,24 @@ h3 {
   margin-right: auto;
   padding: 16px;
   margin-bottom: 1%;
+}
+.cropped-ofp {
+  width: 208px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 70% 70%;
+}
+.my-rounded-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.fixed-bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f8f8;
+  color: #999999;
+  font-size: 14px;
 }

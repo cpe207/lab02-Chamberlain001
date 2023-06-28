@@ -5,34 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>My Portfolio</h1>
-    <p style="text-align: center">
-      <a href="index.html">Home</a>
-      |
-      <a href="experience.html">Experience</a>
-      |
-      <a href="contact.html">Contact Me</a>
-    </p>
-    <img
-      src="https://scontent.fbkk22-7.fna.fbcdn.net/v/t39.30808-6/289265840_761606201682213_4246706762977129847_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeE6M_vnqGznYlNz-61a8-ENszC4XoBamdKzMLhegFqZ0kOohtbilCG69Aain8zy_yYmWsaXCqfKSgz5CCKN7qSo&_nc_ohc=1zKjMGEyeikAX9LgTji&_nc_ht=scontent.fbkk22-7.fna&oh=00_AfCrXWRPWeKZJQA4A-Xe7zcRueDPNHzFT4TsD4-7kQTf3g&oe=6498ADDB"
-      width="15%"
-      height="15%"
-      style="margin-right: auto; margin-left: auto; display: block"
-    />
-    <h3>Kitpakorn Thongkot</h3>
-    <p style="text-align: center">
-      My name is Chopper. Hi! Nice to meet you all. I am Chopper.
-    </p>
-    <h3>Skills</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">🎵 Music</h3>
-      <p>I can play guitar 🎸 but not very well.</p>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <button
+        type="button"
+        class="btn btn-dark"
+        style="width: 7rem"
+        onclick="document.location='index.html' "
+      >
+        Home
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        style="width: 7rem"
+        onclick="document.location='experience.html'"
+      >
+        Experiences
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        style="width: 7rem"
+        onclick="document.location='gallery.html'"
+      >
+        Gallery
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        style="width: 7rem"
+        onclick="document.location='contact.html'"
+      >
+        Contacts
+      </button>
     </div>
-    <div class="skill-container">
-      <h3 class="skill-header">⚽ Sport</h3>
-      <p>I can play so many sports such as football ⚽, basketball 🏀.</p>
+
+    <div
+      class="d-flex align-items-center mx-auto gap-1 justify-content-center"
+      style="max-width: 650px"
+    >
+      <div
+        class="flex-shrink-0"
+        style="padding-top: 2rem; padding-bottom: 1rem"
+      >
+        <img
+          src="C:\Users\iDeapad Gaming\Desktop\Study\Basic 2\lab02-Chamberlain001\Img\289265840_761606201682213_4246706762977129847_n.jpg"
+          width="150"
+          height="150"
+          style="
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border-radius: 50%;
+          "
+        />
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <h1 style="font-weight: 200; text-align: left">Kitpakorn Thongkot</h1>
+        <p style="text-align: left" class="text-muted">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello guys! My name is Kitpakorn. You
+          can call me Chopper. Nice to meet you all. I love playing video games
+          and watching Youtube when having free times.
+        </p>
+      </div>
     </div>
+    <h3 style="font-weight: 400; margin-bottom: 1rem">Skills</h3>
+    <div class="blog-slider">
+      <div class="blog-slider__wrp swiper-wrapper">
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img
+              src="C:\Users\iDeapad Gaming\Desktop\Study\Basic 2\lab02-Chamberlain001\Img\music-concerts.jpg"
+              alt=""
+            />
+          </div>
+          <div class="blog-slider__content">
+            <div class="blog-slider__title">🎵 Music</div>
+            <div class="blog-slider__text">
+              I can play many instruments like Thai xylophone, guitar 🎸, bass,
+              Thai lute and a bit of piano 🎹.
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img
+              src="C:\Users\iDeapad Gaming\Desktop\Study\Basic 2\lab02-Chamberlain001\Img\GettyImages-1235215302.webp"
+              alt=""
+            />
+          </div>
+          <div class="blog-slider__content">
+            <div class="blog-slider__title">⚽ Sport</div>
+            <div class="blog-slider__text">
+              I can play so many sports such as football. And used to paticipate
+              in many of marathon running.🏃
+            </div>
+          </div>
+        </div>
+        <div class="blog-slider__item swiper-slide">
+          <div class="blog-slider__img">
+            <img
+              src="C:\Users\iDeapad Gaming\Desktop\Study\Basic 2\lab02-Chamberlain001\Img\istock-904596106.webp"
+              alt=""
+            />
+          </div>
+          <div class="blog-slider__content">
+            <div class="blog-slider__title">🗣️ Languages</div>
+            <div class="blog-slider__text">
+              I can speak 2 languages, English and German. And I can understand
+              a bit of Chinese and Japanese.👍
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="blog-slider__pagination"></div>
+    </div>
+    <script>
+      var swiper = new Swiper(".blog-slider", {
+        spaceBetween: 30,
+        effect: "fade",
+        loop: true,
+        mousewheel: {
+          invert: false,
+        },
+        // autoHeight: true,
+        pagination: {
+          el: ".blog-slider__pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <p class="text-center text-muted m-4 fixed-bottom">
+      © 2023 kitpakorn-thongkot.com by Kitpakorn Thongkot
+    </p>
   </body>
 </html>

@@ -5,34 +5,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>My Portfolio</h1>
-    <p style="text-align: center">
-      <a href="index.html">Home</a>
-      |
-      <a href="experience.html">Experience</a>
-      |
-      <a href="contact.html">Contact Me</a>
-    </p>
-    <img
-      src="https://scontent.fbkk22-7.fna.fbcdn.net/v/t39.30808-6/289265840_761606201682213_4246706762977129847_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeE6M_vnqGznYlNz-61a8-ENszC4XoBamdKzMLhegFqZ0kOohtbilCG69Aain8zy_yYmWsaXCqfKSgz5CCKN7qSo&_nc_ohc=1zKjMGEyeikAX9LgTji&_nc_ht=scontent.fbkk22-7.fna&oh=00_AfCrXWRPWeKZJQA4A-Xe7zcRueDPNHzFT4TsD4-7kQTf3g&oe=6498ADDB"
-      width="15%"
-      height="15%"
-      style="margin-right: auto; margin-left: auto; display: block"
-    />
-    <h3>Kitpakorn Thongkot</h3>
-    <p style="text-align: center">
-      My name is Chopper. Hi! Nice to meet you all. I am Chopper.
-    </p>
-    <div class="skill-container">
-      <h3 class="skill-header">Contact Me</h3>
-      <p>
-        📧 Email :
-        <a href="mailto:kitpakorn_th@cmu.ac.th">kitpakorn_th@cmu.ac.th</a>
-        <br />
-        ☎️ Tel : 095-147-1115
-      </p>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        style="width: 7rem"
+        onclick="document.location='index.html' "
+      >
+        Home
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        style="width: 7rem"
+        onclick="document.location='experience.html'"
+      >
+        Experiences
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        style="width: 7rem"
+        onclick="document.location='gallery.html'"
+      >
+        Gallery
+      </button>
+      <button
+        type="button"
+        class="btn btn-dark"
+        style="width: 7rem"
+        onclick="document.location='contact.html'"
+      >
+        Contacts
+      </button>
     </div>
+    <h2 style="font-weight: 300; margin-top: 2rem; margin-bottom: 2rem">
+      Contact Me
+    </h2>
+    <div
+      class="d-flex align-items-center mx-auto gap-5 justify-content-center flex-wrap"
+      style="max-width: 650px"
+    >
+      <div class="flex-shrink-0" style="padding-bottom: 1rem">
+        <img
+          src="C:\Users\iDeapad Gaming\Desktop\Study\Basic 2\lab02-Chamberlain001\Img\289265840_761606201682213_4246706762977129847_n.jpg"
+          width="200"
+          height="200"
+          style="
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border-radius: 50%;
+          "
+        />
+      </div>
+      <div
+        class="vstack gap-1"
+        style="max-width: 400px; margin-bottom: 2rem"
+        bis_skin_checked="1"
+      >
+        <div class="d-flex" bis_skin_checked="1">
+          <div
+            style="min-width: 100px"
+            class="fw-semibold"
+            bis_skin_checked="1"
+          >
+            Name
+          </div>
+          <span class="text-muted">Kitpakorn Thongkot</span>
+        </div>
+
+        <div class="d-flex" bis_skin_checked="1">
+          <div
+            style="min-width: 100px"
+            class="fw-semibold"
+            bis_skin_checked="1"
+          >
+            Nickname
+          </div>
+          <span class="text-muted">Chopper</span>
+        </div>
+
+        <div class="d-flex" bis_skin_checked="1">
+          <div
+            style="min-width: 100px"
+            class="fw-semibold"
+            bis_skin_checked="1"
+          >
+            Address
+          </div>
+          <span class="text-muted">
+            68/2 Sankrangtai Rd, Tambon Sankrang, Amphoe Sankampaeng, Chiang Mai
+            50130
+          </span>
+        </div>
+
+        <div class="d-flex" bis_skin_checked="1">
+          <div
+            style="min-width: 100px"
+            class="fw-semibold"
+            bis_skin_checked="1"
+          >
+            Phone
+          </div>
+          <span class="text-muted"> 095-147-1115 </span>
+        </div>
+
+        <div class="d-flex" bis_skin_checked="1">
+          <div
+            style="min-width: 100px"
+            class="fw-semibold"
+            bis_skin_checked="1"
+          >
+            Facebook
+          </div>
+          <span class="text-muted">
+            <a
+              href="https://www.facebook.com/chopper.pakorn.9"
+              target="_blank"
+              rel="noreferrer"
+              style="color: black"
+              class="text-muted"
+            >
+              https://www.facebook.com/chopper.pakorn.9
+            </a>
+          </span>
+        </div>
+
+        <div class="d-flex" bis_skin_checked="1">
+          <div
+            style="min-width: 100px"
+            class="fw-semibold"
+            bis_skin_checked="1"
+          >
+            Email
+          </div>
+          <span class="text-muted">
+            <a
+              href="mailto: kitpakorn_th@cmu.ac.th "
+              style="color: black"
+              class="text-muted"
+              >kitpakorn_th@cmu.ac.th</a
+            >
+          </span>
+        </div>
+      </div>
+    </div>
+    <p class="text-center text-muted m-4 fixed-bottom">
+      © 2023 kitpakorn-thongkot.com by Kitpakorn Thongkot
+    </p>
   </body>
 </html>
